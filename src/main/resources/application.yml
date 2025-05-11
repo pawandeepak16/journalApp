@@ -1,0 +1,10 @@
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://deepak:12345@journaldb.zz49tjc.mongodb.net/?retryWrites=true&w=majority
+      database: my_journal
+      auto-index-creation: true
+server:
+  port: 8081
+
